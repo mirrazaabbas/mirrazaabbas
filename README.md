@@ -50,16 +50,24 @@ Skills developed across the program:
 - Generative AI Productivity
 - Practical AI Use Cases
 
-## 🧩 Current Projects
+## 🧩 Featured Projects
 
-### 🤖 Personal AI Assistant
-Building and experimenting with a practical personal AI assistant using modern AI models, tools, and automation workflows.
+### 🎯 [AI Resume Keyword Matcher](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-resume-keyword-matcher)
+A Python CLI tool that compares a resume with a job description, estimates keyword overlap, and highlights relevant missing terms to review. Demonstrates text preprocessing, keyword extraction, scoring logic, and practical career-focused automation.
 
-### 🧠 AI Agent & Automation Experiments
-Exploring AI agents, tool use, APIs, local AI workflows, and automation to understand how intelligent assistants can perform multi-step tasks.
+**Tech:** Python · Regular Expressions · Text Processing · CLI
 
-### 📚 More Projects Coming Soon
-I'm actively building new projects. Public repositories and full project case studies will be added here as they are ready.
+### 🧠 [Prompt Engineering Lab](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/prompt-engineering-lab)
+A reusable prompt-template toolkit that converts structured JSON templates into customized prompts for research, content creation, and data-analysis workflows. Demonstrates prompt design, variable substitution, and reusable AI workflow thinking.
+
+**Tech:** Python · JSON · Prompt Engineering · CLI
+
+### 📊 [CSV Insight Analyzer](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/csv-insight-analyzer)
+A Python data-analysis project that reads sales CSV files and produces business-ready metrics including total revenue, averages, medians, top regions, top products, and regional breakdowns.
+
+**Tech:** Python · CSV · Statistics · Data Analysis
+
+> These projects are portfolio demonstrations designed to show practical Python, AI workflow, prompt engineering, and data-analysis skills.
 
 ## 📊 GitHub Stats
 
