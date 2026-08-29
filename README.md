@@ -64,8 +64,11 @@ I'm actively building new projects. Public repositories and full project case st
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mirrazaabbas&show_icons=true&hide_border=true" alt="Mir Raza Abbas GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirrazaabbas&layout=compact&hide_border=true" alt="Most used languages" />
+  <img height="170" src="https://github-stats-extended.vercel.app/api?username=mirrazaabbas&show_icons=true&hide_border=true" alt="Mir Raza Abbas GitHub stats" />
+</p>
+
+<p align="center">
+  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mirrazaabbas&layout=compact&hide_border=true" alt="Most used languages" />
 </p>
 
 <p align="center">
