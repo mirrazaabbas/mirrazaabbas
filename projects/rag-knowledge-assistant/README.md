@@ -1,40 +1,89 @@
 # RAG Knowledge Assistant
 
-A dependency-free retrieval project that demonstrates the core retrieval layer behind Retrieval-Augmented Generation (RAG). It indexes local Markdown/text documents, splits them into overlapping chunks, calculates TF-IDF weights, ranks passages with cosine similarity, and returns source-grounded context.
+A source-grounded Retrieval-Augmented Generation portfolio project with a transparent retrieval core and a production-style FastAPI interface. The project indexes local Markdown/text documents, creates overlapping chunks, calculates TF-IDF weights, ranks passages with cosine similarity, and exposes the results with source attribution through both CLI and HTTP APIs.
 
 ## Why this project matters
 
-Modern AI assistants need more than prompting: they need a way to retrieve relevant knowledge before generating an answer. This project implements that retrieval pipeline from first principles so the ranking logic is transparent and easy to extend.
+Reliable AI assistants need a retrieval layer that can bring relevant evidence into the model context and preserve traceability. This implementation keeps retrieval understandable from first principles while providing clean extension points for embeddings, vector databases, reranking, and LLM answer synthesis.
 
 ## Architecture
 
-`Documents → Chunking → Tokenization → TF-IDF Index → Query Vector → Cosine Ranking → Grounded Context`
+`Documents → Chunking → Tokenization → TF-IDF Index → Query Vector → Cosine Ranking → Grounded Passages → API`
+
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the current and production-target designs.
 
 ## Features
 
 - Recursive `.md` / `.txt` document ingestion
 - Overlapping chunk generation
-- TF-IDF weighting built from scratch
-- Cosine-similarity semantic-style ranking
+- TF-IDF weighting implemented from scratch
+- Cosine-similarity ranking
 - Top-k source attribution
-- Zero external dependencies
-- Clean extension point for Gemini/OpenAI/local-model answer synthesis
+- Input validation and clear retrieval errors
+- FastAPI `/health` and `/search` endpoints
+- Pydantic request/response schemas
+- Interactive OpenAPI documentation
+- Dockerized API runtime
+- Dependency-free retrieval core
+- Environment template for future LLM/vector integrations
 
-## Run
+## Run the retrieval CLI
 
 ```bash
 python app.py "How can an AI assistant reduce hallucinations?" --docs sample_docs --top-k 3
 ```
 
-## Engineering extensions
+## Run the API
 
-- Replace sparse TF-IDF vectors with embeddings
-- Add a vector database such as FAISS/Chroma
-- Add reranking
-- Add conversational memory
-- Connect an LLM for cited answer generation
-- Add evaluation metrics for retrieval quality
+```bash
+python -m pip install -r requirements.txt
+uvicorn api:app --reload
+```
+
+Then open the automatically generated API docs at `http://127.0.0.1:8000/docs`.
+
+Example request:
+
+```bash
+curl -X POST http://127.0.0.1:8000/search \
+  -H "Content-Type: application/json" \
+  -d '{"query":"How can AI agents reduce unsupported claims?","top_k":3}'
+```
+
+## Run with Docker
+
+```bash
+docker build -t rag-knowledge-assistant .
+docker run --rm -p 8000:8000 rag-knowledge-assistant
+```
+
+## API contract
+
+### `GET /health`
+Returns a simple service health response.
+
+### `POST /search`
+Accepts a query and `top_k`, retrieves the strongest matching passages, and returns rank, similarity score, source path, and source text.
+
+## Engineering roadmap
+
+1. Add embedding-model adapters.
+2. Add persistent vector storage.
+3. Add reranking and retrieval evaluation.
+4. Add LLM answer synthesis with inline citations.
+5. Add prompt-injection and unsafe-document defenses.
+6. Add PDF/document upload with size/type validation.
+7. Add tracing, latency, token, and cost metrics.
+8. Add a lightweight web UI and deploy a live demo.
+
+## Security model
+
+Retrieved documents must be treated as untrusted data, not as system instructions. A production deployment should validate uploads, isolate trusted prompts from retrieved text, limit document size/type, avoid logging sensitive content, and test prompt-injection scenarios.
 
 ## Skills demonstrated
 
-Python · Information Retrieval · RAG · NLP · TF-IDF · Cosine Similarity · AI Architecture
+Python · FastAPI · Pydantic · Information Retrieval · RAG · NLP · TF-IDF · Cosine Similarity · REST APIs · Docker · AI Architecture
+
+## Current scope
+
+The project currently performs retrieval and source attribution. It does **not** claim to provide a production LLM, embedding model, or vector database yet; those integrations are intentionally represented as the next engineering milestones rather than simulated functionality.
