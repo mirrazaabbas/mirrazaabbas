@@ -39,10 +39,10 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
 
 ## 🏗️ Advanced AI Projects
 
-### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/rag-knowledge-assistant)
-A retrieval pipeline built from first principles: document ingestion, overlapping chunking, TF-IDF indexing, cosine-similarity ranking, top-k retrieval, and source attribution. Designed as a transparent foundation for a production RAG assistant.
+### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
+A standalone source-grounded retrieval application with transparent TF-IDF ranking, cosine similarity, FastAPI REST endpoints, Pydantic validation, Docker packaging, automated tests, CI, and source attribution.
 
-**Engineering:** `Python` `RAG` `NLP` `TF-IDF` `Cosine Similarity` `Information Retrieval`
+**Engineering:** `Python` `FastAPI` `RAG` `NLP` `TF-IDF` `Cosine Similarity` `Docker` `CI/CD`
 
 ### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/agent-workflow-engine)
 A lightweight orchestration engine for multi-step agent workflows with explicit state, composable steps, retry policies, graceful failure handling, and execution telemetry.
@@ -100,7 +100,7 @@ Every portfolio project is structured to make the problem, implementation, archi
 
 ### Building practical AI systems — from retrieval to agents to evaluation.
 
-[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects)
+[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas)
 
 <sub>Generative AI · RAG · AI Agents · Evaluation · Automation · Python</sub>
 
