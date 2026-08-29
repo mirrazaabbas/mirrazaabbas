@@ -2,9 +2,9 @@
 
 # Mir Raza Abbas
 
-### AI Builder · Prompt Engineering · Automation · Python
+### AI Builder · AI Agents · RAG · Prompt Engineering · Python
 
-**Building practical AI tools and workflows that turn ideas into useful applications.**
+**Building practical AI systems, evaluation workflows, and intelligent automation.**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=mirrazaabbas&style=flat-square&label=PROFILE+VIEWS)](https://github.com/mirrazaabbas)
 [![GitHub](https://img.shields.io/badge/GitHub-mirrazaabbas-181717?style=flat-square&logo=github)](https://github.com/mirrazaabbas)
@@ -15,71 +15,51 @@
 
 ## 👋 About Me
 
-I'm developing hands-on skills at the intersection of **Generative AI, prompt engineering, Python, AI agents, automation, and data analysis**. I focus on building understandable, reproducible projects that solve practical problems and demonstrate how modern AI can fit into real workflows.
+I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI agents, prompt engineering, Python, automation, evaluation, and data analysis**. I focus on understandable, reproducible systems that demonstrate both AI concepts and solid engineering foundations.
 
 - 🎓 **Google AI Professional Certificate** — Coursera
 - 🏅 **1 Million Prompters** — Dubai Future Foundation
-- 🤖 Exploring **AI agents, assistants, tool use, APIs, and automation**
-- 🧠 Interested in **structured prompting, research workflows, and AI product development**
-- 🛠️ Building a growing portfolio of practical AI and Python projects
+- 🤖 Building with **retrieval, agent orchestration, evaluation, APIs, and automation**
+- 🧠 Interested in **reliable AI systems, structured prompting, and AI product development**
+- 🛠️ Growing a hands-on portfolio from foundational tools to advanced AI architecture projects
 
 ## 🧰 Tech & Focus
 
 <p align="center">
   <img src="https://img.shields.io/badge/Generative_AI-111827?style=for-the-badge" alt="Generative AI" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-111827?style=for-the-badge" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge" alt="RAG" />
   <img src="https://img.shields.io/badge/AI_Agents-111827?style=for-the-badge" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/Google_Gemini-111827?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/AI_Evaluation-111827?style=for-the-badge" alt="AI Evaluation" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-111827?style=for-the-badge" alt="Prompt Engineering" />
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JSON-111827?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
-  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
-## 🚀 Featured Projects
+## 🏗️ Advanced AI Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/rag-knowledge-assistant)
+A retrieval pipeline built from first principles: document ingestion, overlapping chunking, TF-IDF indexing, cosine-similarity ranking, top-k retrieval, and source attribution. Designed as a transparent foundation for a production RAG assistant.
 
-### 🎯 [AI Resume Keyword Matcher](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-resume-keyword-matcher)
+**Engineering:** `Python` `RAG` `NLP` `TF-IDF` `Cosine Similarity` `Information Retrieval`
 
-Compares resume content with a job description, estimates keyword alignment, and highlights relevant missing terms for review.
+### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/agent-workflow-engine)
+A lightweight orchestration engine for multi-step agent workflows with explicit state, composable steps, retry policies, graceful failure handling, and execution telemetry.
 
-**Built with:** `Python` `Regex` `Text Processing` `CLI`
+**Engineering:** `Python` `AI Agents` `Orchestration` `State Management` `Reliability` `Observability`
 
-</td>
-<td width="50%" valign="top">
+### 🧪 [AI Evaluation Harness](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-evaluation-harness)
+A repeatable benchmark framework for scoring AI outputs on required-concept recall, source-grounding, concision, weighted quality, and dataset-level pass rate.
 
-### 🧠 [Prompt Engineering Lab](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/prompt-engineering-lab)
+**Engineering:** `Python` `LLMOps` `AI Evaluation` `Benchmarking` `Quality Engineering` `Metrics`
 
-Reusable prompt templates for research, content creation, and data-analysis workflows using structured inputs.
+## 🧩 Foundation Projects
 
-**Built with:** `Python` `JSON` `Prompt Engineering`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 📊 [CSV Insight Analyzer](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/csv-insight-analyzer)
-
-Transforms sales CSV data into useful business metrics, summaries, and grouped insights.
-
-**Built with:** `Python` `CSV` `Statistics` `Data Analysis`
-
-</td>
-<td width="50%" valign="top">
-
-### 🔬 What I'm Exploring Next
-
-Projects around **AI agents, retrieval, automation, intelligent assistants, and API-powered workflows**.
-
-**Focus:** `Agents` `Automation` `APIs` `Python`
-
-</td>
-</tr>
-</table>
+| Project | What it demonstrates |
+|---|---|
+| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-resume-keyword-matcher) | Text processing, keyword extraction, scoring, CLI design |
+| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/prompt-engineering-lab) | Structured prompts, reusable templates, JSON workflows |
+| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/csv-insight-analyzer) | Data analysis, statistics, business metrics, CSV processing |
 
 ## 🎓 Credentials
 
@@ -97,32 +77,30 @@ Projects around **AI agents, retrieval, automation, intelligent assistants, and 
 
 </div>
 
-> **Portfolio in progress:** I’m continuously adding better-documented projects as I deepen my skills in AI development, automation, and Python.
-
 ## 🎯 Current Direction
 
-| Area | What I'm working on |
+| Area | Current focus |
 |---|---|
-| **AI Applications** | Turning AI capabilities into practical tools |
-| **Prompt Engineering** | Designing structured, reusable prompting workflows |
-| **AI Agents** | Exploring tools, APIs, orchestration, and automation |
-| **Python** | Strengthening applied development fundamentals |
-| **Data Analysis** | Converting raw data into useful insights |
+| **RAG & Retrieval** | Grounded assistants, retrieval quality, source attribution |
+| **AI Agents** | Orchestration, state, tools, retries, reliable execution |
+| **AI Evaluation** | Benchmarks, regression testing, quality metrics |
+| **Python** | Clean, testable implementations of AI system concepts |
+| **Automation** | Connecting models, tools, APIs, and repeatable workflows |
 
 ## 💡 Engineering Mindset
 
-> **Build useful things. Document the thinking. Improve through iteration.**
+> **Build useful systems. Make the architecture understandable. Measure quality. Improve through iteration.**
 
-I aim to make every project **clear, reproducible, practical, and easy to understand** — with useful documentation, sensible structure, and an emphasis on what the project demonstrates.
+Every portfolio project is structured to make the problem, implementation, architecture, and next engineering steps clear.
 
 ---
 
 <div align="center">
 
-### Building in public. Learning continuously. Improving with every project.
+### Building practical AI systems — from retrieval to agents to evaluation.
 
-[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
+[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects)
 
-<sub>Generative AI · AI Agents · Automation · Python · Prompt Engineering · Data</sub>
+<sub>Generative AI · RAG · AI Agents · Evaluation · Automation · Python</sub>
 
 </div>
