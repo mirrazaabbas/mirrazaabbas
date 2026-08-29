@@ -40,6 +40,11 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
 
 ## 🏗️ Advanced AI Projects
 
+### 🧠 [Samantha AI Personal Assistant](https://github.com/mirrazaabbas/Samantha-AI-Personal-Assistant-Public)
+A public showcase of a personal AI assistant project focused on agent-style interaction, automation, memory-oriented workflows, tool use, and practical assistant capabilities.
+
+**Engineering:** `Python` `AI Agents` `Automation` `Tool Use` `Memory Workflows` `Personal AI Assistant`
+
 ### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
 A source-grounded RAG application with a reproducible TF-IDF baseline, FastAPI, built-in browser UI, Docker, and an optional OpenAI-compatible provider path for semantic embedding retrieval and cited answer generation. Provider/network behavior is tested with deterministic fakes and mocked transport so CI requires no secrets.
 
@@ -75,6 +80,7 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 | Area | Current focus |
 |---|---|
+| **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use, assistant workflows |
 | **RAG & Retrieval** | Semantic retrieval, grounded answers, retrieval quality, source attribution |
 | **AI Agents** | Orchestration, conditional routing, approval controls, reliable execution |
 | **AI Evaluation** | Benchmarks, regression comparison, reporting, quality metrics |
@@ -91,10 +97,10 @@ Every portfolio project is structured to make the problem, implementation, archi
 
 <div align="center">
 
-### Building practical AI systems — from retrieval to agents to evaluation.
+### Building practical AI systems — from personal assistants to retrieval, agents, and evaluation.
 
 [![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
 
-<sub>Generative AI · RAG · AI Agents · Evaluation · Automation · Python</sub>
+<sub>Generative AI · Personal AI Assistants · RAG · AI Agents · Evaluation · Automation · Python</sub>
 
 </div>
