@@ -1,0 +1,50 @@
+name: Portfolio Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Compile Python sources
+        run: python -m compileall -q projects tests
+
+      - name: Run portfolio regression tests
+        run: python -m unittest -v tests/test_portfolio.py
+
+      - name: Smoke test resume matcher
+        run: python projects/ai-resume-keyword-matcher/app.py projects/ai-resume-keyword-matcher/sample_resume.txt projects/ai-resume-keyword-matcher/sample_job.txt
+
+      - name: Smoke test CSV analyzer
+        run: python projects/csv-insight-analyzer/analyzer.py projects/csv-insight-analyzer/sample_sales.csv
+
+      - name: Smoke test RAG assistant from repository root
+        run: python projects/rag-knowledge-assistant/app.py "How can AI agents reduce unsupported claims?"
+
+      - name: Smoke test agent workflow engine
+        run: python projects/agent-workflow-engine/engine.py
+
+      - name: Smoke test evaluation harness from repository root
+        run: python projects/ai-evaluation-harness/evaluate.py
+
+      - name: Smoke test prompt library validation
+        run: python -c "import importlib.util; p='projects/prompt-engineering-lab/prompt_lab.py'; s=importlib.util.spec_from_file_location('prompt_lab',p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); assert len(m.load_prompts()) >= 3"
