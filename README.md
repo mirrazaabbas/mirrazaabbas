@@ -33,34 +33,35 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
   <img src="https://img.shields.io/badge/AI_Evaluation-111827?style=for-the-badge" alt="AI Evaluation" />
   <img src="https://img.shields.io/badge/Prompt_Engineering-111827?style=for-the-badge" alt="Prompt Engineering" />
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JSON-111827?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 ## 🏗️ Advanced AI Projects
 
 ### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
-A standalone source-grounded retrieval application with transparent TF-IDF ranking, cosine similarity, FastAPI REST endpoints, Pydantic validation, Docker packaging, automated tests, CI, and source attribution.
+A source-grounded RAG application with a reproducible TF-IDF baseline, FastAPI, built-in browser UI, Docker, and an optional OpenAI-compatible provider path for semantic embedding retrieval and cited answer generation. Provider/network behavior is tested with deterministic fakes and mocked transport so CI requires no secrets.
 
-**Engineering:** `Python` `FastAPI` `RAG` `NLP` `TF-IDF` `Cosine Similarity` `Docker` `CI/CD`
+**Engineering:** `Python` `FastAPI` `RAG` `Embeddings` `LLM Integration` `Source Grounding` `Docker` `Testing` `CI/CD`
 
 ### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/agent-workflow-engine)
-A standalone orchestration framework for multi-step agent workflows with explicit state, composable steps, retry policies, graceful failure handling, execution telemetry, tests, CI, and Docker packaging.
+An explicit orchestration framework for multi-step agent workflows with state updates, retries, conditional routing, human approval gates, maximum-step controls, graceful blocked/failure states, and execution telemetry.
 
-**Engineering:** `Python` `AI Agents` `Orchestration` `State Management` `Reliability` `Observability` `Docker`
+**Engineering:** `Python` `AI Agents` `Orchestration` `Conditional Routing` `Human-in-the-loop` `Reliability` `Observability` `Docker`
 
 ### 🧪 [AI Evaluation Harness](https://github.com/mirrazaabbas/ai-evaluation-harness)
-A standalone benchmark framework for scoring AI outputs on required-concept recall, groundedness, concision, weighted quality, and dataset-level pass rate with automated tests and CI.
+A deterministic benchmark framework with groundedness/recall/concision scoring, optional citation coverage, latency/cost aggregation, configurable thresholds, baseline-vs-candidate regression deltas, JSON output, and HTML reporting.
 
-**Engineering:** `Python` `LLMOps` `AI Evaluation` `Benchmarking` `Quality Engineering` `Metrics`
+**Engineering:** `Python` `LLMOps` `AI Evaluation` `Regression Testing` `Benchmarking` `Quality Engineering` `HTML Reporting`
 
 ## 🧩 Foundation Projects
 
 | Project | What it demonstrates |
 |---|---|
-| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Text processing, keyword extraction, scoring, CLI design, tests |
-| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompts, reusable templates, JSON validation, tests |
-| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/csv-insight-analyzer) | Data validation, statistics, business metrics, CSV processing, tests |
+| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Text processing, keyword extraction, scoring, CLI design, validation, coverage-gated CI |
+| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompts, reusable templates, JSON validation, error handling, coverage-gated CI |
+| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/csv-insight-analyzer) | Data validation, statistics, business metrics, CSV processing, coverage-gated CI |
 
 ## 🎓 Credentials
 
@@ -82,17 +83,17 @@ A standalone benchmark framework for scoring AI outputs on required-concept reca
 
 | Area | Current focus |
 |---|---|
-| **RAG & Retrieval** | Grounded assistants, retrieval quality, source attribution |
-| **AI Agents** | Orchestration, state, tools, retries, reliable execution |
-| **AI Evaluation** | Benchmarks, regression testing, quality metrics |
-| **Python** | Clean, testable implementations of AI system concepts |
+| **RAG & Retrieval** | Semantic retrieval, grounded answers, retrieval quality, source attribution |
+| **AI Agents** | Orchestration, conditional routing, approval controls, reliable execution |
+| **AI Evaluation** | Benchmarks, regression comparison, reporting, quality metrics |
+| **Python** | Clean, validated, coverage-gated implementations of AI system concepts |
 | **Automation** | Connecting models, tools, APIs, and repeatable workflows |
 
 ## 💡 Engineering Mindset
 
 > **Build useful systems. Make the architecture understandable. Measure quality. Improve through iteration.**
 
-Every portfolio project is structured to make the problem, implementation, architecture, and next engineering steps clear.
+Every portfolio project is structured to make the problem, implementation, architecture, tests, and next engineering steps clear.
 
 ---
 
