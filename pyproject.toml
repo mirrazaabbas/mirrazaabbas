@@ -1,0 +1,28 @@
+[project]
+name = "mirrazaabbas-ai-portfolio"
+version = "0.1.0"
+description = "Portfolio of practical Python, RAG, AI-agent, prompt-engineering, evaluation, and data-analysis projects."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Mir Raza Abbas" }]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+extend-exclude = [".venv", "venv", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.coverage.run]
+branch = true
+source = ["projects"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = false
+exclude_lines = [
+  "if __name__ == .__main__.:",
+  "raise SystemExit",
+]
