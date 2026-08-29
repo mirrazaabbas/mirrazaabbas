@@ -2,9 +2,9 @@
 
 # Mir Raza Abbas
 
-### AI Builder · Prompt Engineer · Generative AI Enthusiast
+### AI Builder · Prompt Engineering · Automation · Python
 
-Building practical AI tools, automation workflows, and data-driven applications.
+**Building practical AI tools and workflows that turn ideas into useful applications.**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=mirrazaabbas&style=flat-square&label=PROFILE+VIEWS)](https://github.com/mirrazaabbas)
 [![GitHub](https://img.shields.io/badge/GitHub-mirrazaabbas-181717?style=flat-square&logo=github)](https://github.com/mirrazaabbas)
@@ -13,30 +13,30 @@ Building practical AI tools, automation workflows, and data-driven applications.
 
 ---
 
-## About
+## 👋 About Me
 
-I'm focused on turning modern AI capabilities into useful, understandable products. My current work combines **Generative AI, prompt engineering, Python, automation, AI agents, and data analysis** with an emphasis on practical implementation rather than demos alone.
+I'm developing hands-on skills at the intersection of **Generative AI, prompt engineering, Python, AI agents, automation, and data analysis**. I focus on building understandable, reproducible projects that solve practical problems and demonstrate how modern AI can fit into real workflows.
 
 - 🎓 **Google AI Professional Certificate** — Coursera
 - 🏅 **1 Million Prompters** — Dubai Future Foundation
-- 🤖 Exploring AI agents, assistants, tool use, APIs, and automation
-- 🧠 Interested in structured prompting, research workflows, and AI product development
-- 🛠️ Building a public portfolio of practical AI and Python projects
+- 🤖 Exploring **AI agents, assistants, tool use, APIs, and automation**
+- 🧠 Interested in **structured prompting, research workflows, and AI product development**
+- 🛠️ Building a growing portfolio of practical AI and Python projects
 
-## Core Toolkit
+## 🧰 Tech & Focus
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Generative_AI-111827?style=for-the-badge" alt="Generative AI" />
   <img src="https://img.shields.io/badge/Prompt_Engineering-111827?style=for-the-badge" alt="Prompt Engineering" />
   <img src="https://img.shields.io/badge/AI_Agents-111827?style=for-the-badge" alt="AI Agents" />
   <img src="https://img.shields.io/badge/Google_Gemini-111827?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini" />
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JSON-111827?style=for-the-badge&logo=json&logoColor=white" alt="JSON" />
   <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS_Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
 
-## Featured Work
+## 🚀 Featured Projects
 
 <table>
 <tr>
@@ -44,18 +44,18 @@ I'm focused on turning modern AI capabilities into useful, understandable produc
 
 ### 🎯 [AI Resume Keyword Matcher](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-resume-keyword-matcher)
 
-A Python tool that compares resume content with a job description, estimates keyword alignment, and identifies relevant terms worth reviewing.
+Compares resume content with a job description, estimates keyword alignment, and highlights relevant missing terms for review.
 
-`Python` `Text Processing` `Regex` `CLI`
+**Built with:** `Python` `Regex` `Text Processing` `CLI`
 
 </td>
 <td width="50%" valign="top">
 
 ### 🧠 [Prompt Engineering Lab](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/prompt-engineering-lab)
 
-A reusable prompt-template toolkit for generating structured prompts across research, content, and data-analysis workflows.
+Reusable prompt templates for research, content creation, and data-analysis workflows using structured inputs.
 
-`Python` `JSON` `Prompt Engineering` `AI Workflows`
+**Built with:** `Python` `JSON` `Prompt Engineering`
 
 </td>
 </tr>
@@ -64,69 +64,65 @@ A reusable prompt-template toolkit for generating structured prompts across rese
 
 ### 📊 [CSV Insight Analyzer](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/csv-insight-analyzer)
 
-A lightweight analytics project that transforms raw sales CSV data into useful business metrics and grouped insights.
+Transforms sales CSV data into useful business metrics, summaries, and grouped insights.
 
-`Python` `CSV` `Statistics` `Data Analysis`
+**Built with:** `Python` `CSV` `Statistics` `Data Analysis`
 
 </td>
 <td width="50%" valign="top">
 
-### 🚧 Next Build
+### 🔬 What I'm Exploring Next
 
-Developing more practical projects around **AI agents, automation, retrieval, and intelligent assistants**.
+Projects around **AI agents, retrieval, automation, intelligent assistants, and API-powered workflows**.
 
-`AI Agents` `Automation` `APIs` `Python`
+**Focus:** `Agents` `Automation` `APIs` `Python`
 
 </td>
 </tr>
 </table>
 
-## AI Credentials
+## 🎓 Credentials
 
-**Google AI Professional Certificate**  
-AI Fundamentals · Brainstorming & Planning · Research & Insights · Writing & Communication · Content Creation · Data Analysis · AI App Building
+### Google AI Professional Certificate
+`AI Fundamentals` · `Brainstorming & Planning` · `Research & Insights` · `Writing & Communication` · `Content Creation` · `Data Analysis` · `AI App Building`
 
-**1 Million Prompters — Dubai Future Foundation**  
-Prompt Engineering · Structured Prompt Design · Generative AI Productivity · Practical AI Use Cases
+### 1 Million Prompters — Dubai Future Foundation
+`Prompt Engineering` · `Structured Prompt Design` · `Generative AI Productivity` · `Practical AI Use Cases`
 
-## GitHub Activity
+## 📈 GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=mirrazaabbas&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub stats" />
-
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mirrazaabbas&layout=compact&hide_border=true" alt="Top languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=mirrazaabbas&hide_border=true" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=mirrazaabbas&hide_border=true" alt="GitHub contribution streak" />
 
 </div>
 
-## Currently Building Toward
+> **Portfolio in progress:** I’m continuously adding better-documented projects as I deepen my skills in AI development, automation, and Python.
 
-```text
-AI applications     ███████████████████░   Practical product development
-Prompt engineering  ████████████████████   Structured & reusable workflows
-AI agents           ████████████████░░░░   Tools, APIs & automation
-Python               ███████████████░░░░░   Applied development
-Data analysis        █████████████░░░░░░░   Insight-driven projects
-```
+## 🎯 Current Direction
 
-## Principles
+| Area | What I'm working on |
+|---|---|
+| **AI Applications** | Turning AI capabilities into practical tools |
+| **Prompt Engineering** | Designing structured, reusable prompting workflows |
+| **AI Agents** | Exploring tools, APIs, orchestration, and automation |
+| **Python** | Strengthening applied development fundamentals |
+| **Data Analysis** | Converting raw data into useful insights |
 
-> Build useful things. Document the thinking. Keep improving the system.
+## 💡 Engineering Mindset
 
-I value projects that are **clear, reproducible, practical, and easy for another developer or recruiter to understand**.
+> **Build useful things. Document the thinking. Improve through iteration.**
+
+I aim to make every project **clear, reproducible, practical, and easy to understand** — with useful documentation, sensible structure, and an emphasis on what the project demonstrates.
 
 ---
 
 <div align="center">
 
-### Open to learning, building, and collaborating on practical AI projects.
+### Building in public. Learning continuously. Improving with every project.
 
-[![GitHub](https://img.shields.io/badge/Explore_my_work-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
+[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
 
-<sub>AI · Automation · Python · Prompt Engineering · Data</sub>
+<sub>Generative AI · AI Agents · Automation · Python · Prompt Engineering · Data</sub>
 
 </div>
