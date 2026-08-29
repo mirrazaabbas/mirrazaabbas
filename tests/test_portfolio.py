@@ -1,8 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
-import json
-import tempfile
+import sys
 import unittest
 from pathlib import Path
 
@@ -15,6 +14,7 @@ def load_module(name: str, relative_path: str):
     if spec is None or spec.loader is None:
         raise RuntimeError(f"Could not load module: {path}")
     module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
     spec.loader.exec_module(module)
     return module
 
@@ -57,9 +57,11 @@ class PortfolioTests(unittest.TestCase):
         self.assertEqual(report["top_region"][0], "South")
 
     def test_rag_retrieval(self):
+        text_a = "RAG retrieves trusted context for grounded answers"
+        text_b = "Python is a programming language"
         chunks = [
-            self.rag.Chunk("a.md", "RAG retrieves trusted context for grounded answers", self.rag.Counter(self.rag.tokens("RAG retrieves trusted context for grounded answers"))),
-            self.rag.Chunk("b.md", "Python is a programming language", self.rag.Counter(self.rag.tokens("Python is a programming language"))),
+            self.rag.Chunk("a.md", text_a, self.rag.Counter(self.rag.tokens(text_a))),
+            self.rag.Chunk("b.md", text_b, self.rag.Counter(self.rag.tokens(text_b))),
         ]
         results = self.rag.search(chunks, "grounded retrieval context", 1)
         self.assertEqual(results[0][1].source, "a.md")
