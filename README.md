@@ -44,13 +44,13 @@ A standalone source-grounded retrieval application with transparent TF-IDF ranki
 
 **Engineering:** `Python` `FastAPI` `RAG` `NLP` `TF-IDF` `Cosine Similarity` `Docker` `CI/CD`
 
-### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/agent-workflow-engine)
-A lightweight orchestration engine for multi-step agent workflows with explicit state, composable steps, retry policies, graceful failure handling, and execution telemetry.
+### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/agent-workflow-engine)
+A standalone orchestration framework for multi-step agent workflows with explicit state, composable steps, retry policies, graceful failure handling, execution telemetry, tests, CI, and Docker packaging.
 
-**Engineering:** `Python` `AI Agents` `Orchestration` `State Management` `Reliability` `Observability`
+**Engineering:** `Python` `AI Agents` `Orchestration` `State Management` `Reliability` `Observability` `Docker`
 
-### 🧪 [AI Evaluation Harness](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-evaluation-harness)
-A repeatable benchmark framework for scoring AI outputs on required-concept recall, source-grounding, concision, weighted quality, and dataset-level pass rate.
+### 🧪 [AI Evaluation Harness](https://github.com/mirrazaabbas/ai-evaluation-harness)
+A standalone benchmark framework for scoring AI outputs on required-concept recall, groundedness, concision, weighted quality, and dataset-level pass rate with automated tests and CI.
 
 **Engineering:** `Python` `LLMOps` `AI Evaluation` `Benchmarking` `Quality Engineering` `Metrics`
 
@@ -58,9 +58,9 @@ A repeatable benchmark framework for scoring AI outputs on required-concept reca
 
 | Project | What it demonstrates |
 |---|---|
-| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/ai-resume-keyword-matcher) | Text processing, keyword extraction, scoring, CLI design |
-| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/prompt-engineering-lab) | Structured prompts, reusable templates, JSON workflows |
-| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/mirrazaabbas/tree/main/projects/csv-insight-analyzer) | Data analysis, statistics, business metrics, CSV processing |
+| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Text processing, keyword extraction, scoring, CLI design, tests |
+| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompts, reusable templates, JSON validation, tests |
+| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/csv-insight-analyzer) | Data validation, statistics, business metrics, CSV processing, tests |
 
 ## 🎓 Credentials
 
@@ -100,7 +100,7 @@ Every portfolio project is structured to make the problem, implementation, archi
 
 ### Building practical AI systems — from retrieval to agents to evaluation.
 
-[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas)
+[![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
 
 <sub>Generative AI · RAG · AI Agents · Evaluation · Automation · Python</sub>
 
