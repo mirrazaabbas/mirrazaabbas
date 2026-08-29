@@ -29,7 +29,7 @@ jobs:
         run: python -m compileall -q projects tests
 
       - name: Run portfolio regression tests
-        run: python -m unittest -v tests/test_portfolio.py
+        run: python tests/test_portfolio.py
 
       - name: Smoke test resume matcher
         run: python projects/ai-resume-keyword-matcher/app.py projects/ai-resume-keyword-matcher/sample_resume.txt projects/ai-resume-keyword-matcher/sample_job.txt
