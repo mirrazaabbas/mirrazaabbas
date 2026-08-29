@@ -9,9 +9,9 @@ import argparse
 import math
 import re
 from collections import Counter
+from collections.abc import Iterable
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Iterable
 
 TOKEN_RE = re.compile(r"[a-zA-Z0-9_'-]+")
 BASE_DIR = Path(__file__).resolve().parent
