@@ -2,12 +2,11 @@
 
 # Mir Raza Abbas
 
-### AI Builder · AI Agents · RAG · Prompt Engineering · Python
+### AI Builder · RAG · AI Agents · Evaluation · Automation · Python
 
-**Building practical AI systems, evaluation workflows, and intelligent automation.**
+**Building practical AI systems with measurable engineering evidence.**
 
 [![Portfolio Tests](https://github.com/mirrazaabbas/mirrazaabbas/actions/workflows/portfolio-tests.yml/badge.svg?branch=main)](https://github.com/mirrazaabbas/mirrazaabbas/actions/workflows/portfolio-tests.yml)
-[![Profile Views](https://komarev.com/ghpvc/?username=mirrazaabbas&style=flat-square&label=PROFILE+VIEWS)](https://github.com/mirrazaabbas)
 [![GitHub](https://img.shields.io/badge/GitHub-mirrazaabbas-181717?style=flat-square&logo=github)](https://github.com/mirrazaabbas)
 
 </div>
@@ -31,24 +30,25 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
   <img src="https://img.shields.io/badge/RAG-111827?style=for-the-badge" alt="RAG" />
   <img src="https://img.shields.io/badge/AI_Agents-111827?style=for-the-badge" alt="AI Agents" />
   <img src="https://img.shields.io/badge/AI_Evaluation-111827?style=for-the-badge" alt="AI Evaluation" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-111827?style=for-the-badge" alt="Prompt Engineering" />
   <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/FastAPI-111827?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/pgvector-111827?style=for-the-badge" alt="pgvector" />
   <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 ## 🏗️ Advanced AI Projects
 
-### 🧠 [Samantha AI Personal Assistant](https://github.com/mirrazaabbas/Samantha-AI-Personal-Assistant-Public)
-A public showcase of a personal AI assistant project focused on agent-style interaction, automation, memory-oriented workflows, tool use, and practical assistant capabilities.
-
-**Engineering:** `Python` `AI Agents` `Automation` `Tool Use` `Memory Workflows` `Personal AI Assistant`
-
 ### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
-A source-grounded RAG application with a reproducible TF-IDF baseline, FastAPI, built-in browser UI, Docker, and an optional OpenAI-compatible provider path for semantic embedding retrieval and cited answer generation. Provider/network behavior is tested with deterministic fakes and mocked transport so CI requires no secrets.
+My flagship source-grounded RAG project: a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, and automated integration verification. GitHub Actions tests Python 3.10–3.12, starts a real pgvector service, generates benchmark evidence, and verifies the production Docker image on a platform-style port. A Render deployment blueprint is included; a public Live Demo is only claimed after external deployment is actually verified.
 
-**Engineering:** `Python` `FastAPI` `RAG` `Embeddings` `LLM Integration` `Source Grounding` `Docker` `Testing` `CI/CD`
+**Engineering:** `Python` `FastAPI` `RAG` `PostgreSQL` `pgvector` `HNSW` `Embeddings` `Source Grounding` `Docker` `Testing` `CI/CD` `Benchmarking`
+
+### 🧠 [Samantha AI Personal Assistant](https://github.com/mirrazaabbas/Samantha-AI-Personal-Assistant-Public)
+A local-first personal AI assistant spanning CLI, local API, memory, tools, scheduled work, research, configurable model providers, desktop workflows, and platform-aware capabilities. The public repository includes privacy/security documentation plus Python/Rust and Windows/Linux CI verification.
+
+**Engineering:** `Python` `Rust/PyO3` `AI Agents` `Automation` `Tool Use` `Memory` `Local AI` `Cross-platform` `Privacy Engineering`
 
 ### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/agent-workflow-engine)
 An explicit orchestration framework for multi-step agent workflows with state updates, retries, conditional routing, human approval gates, maximum-step controls, graceful blocked/failure states, and execution telemetry.
@@ -80,8 +80,8 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 | Area | Current focus |
 |---|---|
-| **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use, assistant workflows |
-| **RAG & Retrieval** | Semantic retrieval, grounded answers, retrieval quality, source attribution |
+| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, evaluation, deployment |
+| **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use, local-first workflows |
 | **AI Agents** | Orchestration, conditional routing, approval controls, reliable execution |
 | **AI Evaluation** | Benchmarks, regression comparison, reporting, quality metrics |
 | **Python** | Clean, validated, coverage-gated implementations of AI system concepts |
@@ -91,16 +91,16 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 > **Build useful systems. Make the architecture understandable. Measure quality. Improve through iteration.**
 
-Every portfolio project is structured to make the problem, implementation, architecture, tests, and next engineering steps clear.
+Every portfolio project is structured to make the problem, implementation, architecture, tests, limitations, and next engineering steps clear. I use AI tools as part of the development process for planning, learning, coding support, debugging, and iteration, while verifying outputs through tests and working implementations.
 
 ---
 
 <div align="center">
 
-### Building practical AI systems — from personal assistants to retrieval, agents, and evaluation.
+### Building practical AI systems — from retrieval and personal assistants to agents and evaluation.
 
 [![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
 
-<sub>Generative AI · Personal AI Assistants · RAG · AI Agents · Evaluation · Automation · Python</sub>
+<sub>Generative AI · RAG · Personal AI Assistants · AI Agents · Evaluation · Automation · Python</sub>
 
 </div>
