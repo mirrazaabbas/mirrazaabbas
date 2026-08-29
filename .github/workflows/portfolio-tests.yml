@@ -25,11 +25,19 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
+      - name: Install quality tools
+        run: python -m pip install --upgrade pip ruff coverage
+
       - name: Compile Python sources
         run: python -m compileall -q projects tests
 
-      - name: Run portfolio regression tests
-        run: python tests/test_portfolio.py
+      - name: Lint Python sources
+        run: ruff check projects tests --output-format=github
+
+      - name: Run regression tests with coverage
+        run: |
+          coverage run tests/test_portfolio.py
+          coverage report --fail-under=70
 
       - name: Smoke test resume matcher
         run: python projects/ai-resume-keyword-matcher/app.py projects/ai-resume-keyword-matcher/sample_resume.txt projects/ai-resume-keyword-matcher/sample_job.txt
