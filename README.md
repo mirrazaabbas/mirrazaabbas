@@ -71,14 +71,6 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 ### 1 Million Prompters — Dubai Future Foundation
 `Prompt Engineering` · `Structured Prompt Design` · `Generative AI Productivity` · `Practical AI Use Cases`
 
-## 📈 GitHub Activity
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=mirrazaabbas&hide_border=true" alt="GitHub contribution streak" />
-
-</div>
-
 ## 🎯 Current Direction
 
 | Area | Current focus |
