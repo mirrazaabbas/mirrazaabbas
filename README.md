@@ -35,15 +35,16 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
   <img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/pgvector-111827?style=for-the-badge" alt="pgvector" />
   <img src="https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-111827?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
   <img src="https://img.shields.io/badge/GitHub_Actions-111827?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
 ## 🏗️ Advanced AI Projects
 
 ### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
-My flagship source-grounded RAG project: a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, and automated integration verification. GitHub Actions tests Python 3.10–3.12, starts a real pgvector service, generates benchmark evidence, and verifies the production Docker image on a platform-style port. A Render deployment blueprint is included; a public Live Demo is only claimed after external deployment is actually verified.
+My flagship source-grounded RAG project: a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, and automated integration verification. GitHub Actions tests Python 3.10–3.12, starts real pgvector and Jaeger services, verifies OTLP tracing, generates benchmark evidence, checks prompt-injection boundaries, and smoke-tests the production Docker image on a platform-style port. A Render deployment blueprint is included; a public Live Demo is only claimed after external deployment is actually verified.
 
-**Engineering:** `Python` `FastAPI` `RAG` `PostgreSQL` `pgvector` `HNSW` `Embeddings` `Source Grounding` `Docker` `Testing` `CI/CD` `Benchmarking`
+**Engineering:** `Python` `FastAPI` `RAG` `PostgreSQL` `pgvector` `HNSW` `Embeddings` `Source Grounding` `OpenTelemetry` `OTLP` `Jaeger` `Security Guardrails` `Docker` `Testing` `CI/CD` `Benchmarking`
 
 ### 🧠 [Samantha AI Personal Assistant](https://github.com/mirrazaabbas/Samantha-AI-Personal-Assistant-Public)
 A local-first personal AI assistant spanning CLI, local API, memory, tools, scheduled work, research, configurable model providers, desktop workflows, and platform-aware capabilities. The public repository includes privacy/security documentation plus Python/Rust and Windows/Linux CI verification.
@@ -80,7 +81,7 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 | Area | Current focus |
 |---|---|
-| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, evaluation, deployment |
+| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, evaluation, observability, deployment |
 | **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use, local-first workflows |
 | **AI Agents** | Orchestration, conditional routing, approval controls, reliable execution |
 | **AI Evaluation** | Benchmarks, regression comparison, reporting, quality metrics |
