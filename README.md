@@ -6,6 +6,7 @@
 
 **Building practical AI systems, evaluation workflows, and intelligent automation.**
 
+[![Portfolio Tests](https://github.com/mirrazaabbas/mirrazaabbas/actions/workflows/portfolio-tests.yml/badge.svg?branch=main)](https://github.com/mirrazaabbas/mirrazaabbas/actions/workflows/portfolio-tests.yml)
 [![Profile Views](https://komarev.com/ghpvc/?username=mirrazaabbas&style=flat-square&label=PROFILE+VIEWS)](https://github.com/mirrazaabbas)
 [![GitHub](https://img.shields.io/badge/GitHub-mirrazaabbas-181717?style=flat-square&logo=github)](https://github.com/mirrazaabbas)
 
