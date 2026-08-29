@@ -42,7 +42,7 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
 ## 🏗️ Advanced AI Projects
 
 ### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
-My flagship source-grounded RAG project: a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, and automated integration verification. GitHub Actions tests Python 3.10–3.12, starts real pgvector and Jaeger services, verifies OTLP tracing, generates benchmark evidence, checks prompt-injection boundaries, and smoke-tests the production Docker image on a platform-style port. A Render deployment blueprint is included; a public Live Demo is only claimed after external deployment is actually verified.
+My completed flagship source-grounded RAG portfolio project: a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, and automated integration verification. GitHub Actions tests Python 3.10–3.12, starts real pgvector and Jaeger services, verifies OTLP tracing, generates benchmark evidence, checks prompt-injection boundaries, and smoke-tests the production Docker image on a platform-style port. The repository also includes architecture, deployment configuration, benchmark documentation, a recruiter demo walkthrough, and a self-contained credential-free browser demo source.
 
 **Engineering:** `Python` `FastAPI` `RAG` `PostgreSQL` `pgvector` `HNSW` `Embeddings` `Source Grounding` `OpenTelemetry` `OTLP` `Jaeger` `Security Guardrails` `Docker` `Testing` `CI/CD` `Benchmarking`
 
@@ -81,7 +81,7 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 | Area | Current focus |
 |---|---|
-| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, evaluation, observability, deployment |
+| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, evaluation and observability |
 | **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use, local-first workflows |
 | **AI Agents** | Orchestration, conditional routing, approval controls, reliable execution |
 | **AI Evaluation** | Benchmarks, regression comparison, reporting, quality metrics |
@@ -92,7 +92,7 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 > **Build useful systems. Make the architecture understandable. Measure quality. Improve through iteration.**
 
-Every portfolio project is structured to make the problem, implementation, architecture, tests, limitations, and next engineering steps clear. I use AI tools as part of the development process for planning, learning, coding support, debugging, and iteration, while verifying outputs through tests and working implementations.
+Every portfolio project is structured to make the problem, implementation, architecture, tests, limitations, and verified engineering evidence clear. I use AI tools as part of the development process for planning, learning, coding support, debugging, and iteration, while verifying outputs through tests and working implementations.
 
 ---
 
