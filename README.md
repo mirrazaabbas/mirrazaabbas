@@ -15,21 +15,43 @@
 
 ## 👋 About Me
 
-I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI agents, prompt engineering, Python, automation, evaluation, and data analysis**. I focus on understandable, reproducible systems that demonstrate both AI concepts and solid engineering foundations: state management, failure handling, evaluation, observability, security boundaries, CI/CD, and measurable quality.
+I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI agents, prompt engineering, Python, automation, evaluation, and data analysis**. My portfolio focuses on understandable, reproducible systems and the engineering around them: state management, failure handling, evaluation, observability, security boundaries, CI/CD, and measurable quality.
 
 - 🎓 **Google AI Professional Certificate** — Coursera
 - 🏅 **1 Million Prompters** — Dubai Future Foundation
 - 🤖 Building with **retrieval, agent orchestration, evaluation, APIs, and automation**
 - 🧠 Focused on **reliable AI systems, structured prompting, measurable quality, and AI product development**
-- 🛠️ Portfolio work ranges from focused foundation tools to advanced AI architecture projects
+- 🛠️ Portfolio work ranges from focused foundation tools to integrated AI-system architecture
 
 ## 🚀 Start Here
 
 | Flagship | What to inspect |
 |---|---|
-| [**RAG Knowledge Assistant**](https://github.com/mirrazaabbas/rag-knowledge-assistant) | Production-style retrieval, PostgreSQL/pgvector, citations, observability, security tests and Docker |
-| [**Agent Workflow Engine**](https://github.com/mirrazaabbas/agent-workflow-engine) | Agent orchestration, async execution, checkpoints, retries, timeouts, approvals, permissions and idempotency |
-| [**AI Evaluation Harness**](https://github.com/mirrazaabbas/ai-evaluation-harness) | RAG/agent metrics, regression policies, retrieval evaluation, citation quality, cost/latency gates and HTML reporting |
+| [**RAG Knowledge Assistant**](https://github.com/mirrazaabbas/rag-knowledge-assistant) | Production-style retrieval, PostgreSQL/pgvector, citations, observability, security tests, Docker and evidence export |
+| [**Agent Workflow Engine**](https://github.com/mirrazaabbas/agent-workflow-engine) | Async orchestration, checkpoints, retries, timeouts, approvals, permissions, idempotency, real RAG/model adapters and telemetry |
+| [**AI Evaluation Harness**](https://github.com/mirrazaabbas/ai-evaluation-harness) | RAG/agent metrics, retrieval and citation evaluation, tool-call accuracy, regression policies and cross-project quality gates |
+
+## 🔗 Integrated AI System
+
+The three flagship repositories now interoperate through a versioned, credential-free evidence format: **`portfolio-evidence/v1`**.
+
+```text
+RAG Knowledge Assistant
+        ↓ grounded answer + retrieval evidence
+Agent Workflow Engine
+        ↓ permission-scoped orchestration + runtime telemetry
+AI Evaluation Harness
+        ↓ answer + retrieval + citation + tool-call evaluation
+```
+
+This demonstrates a real system boundary rather than three isolated demos:
+
+- RAG exports source IDs, citations, context, ranking scores and optional latency.
+- Agent Workflow Engine calls the RAG API through a real HTTP tool adapter, applies reliability controls, and preserves runtime events.
+- AI Evaluation Harness consumes the shared evidence contract and calculates deterministic answer, retrieval, citation and tool-call metrics.
+- Public CI verifies the contract and integration behavior without requiring external model credentials.
+
+**[Read the integrated system evidence →](PORTFOLIO_SYSTEM.md)**
 
 ## 🧰 Tech & Focus
 
@@ -50,7 +72,7 @@ I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI a
 ## 🏗️ Advanced AI Projects
 
 ### 🔎 [RAG Knowledge Assistant](https://github.com/mirrazaabbas/rag-knowledge-assistant)
-My completed flagship source-grounded RAG portfolio project: a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, and automated integration verification. GitHub Actions tests Python 3.10–3.12, starts real pgvector and Jaeger services, verifies OTLP tracing, generates benchmark evidence, checks prompt-injection boundaries, and smoke-tests the production Docker image on a platform-style port. The repository also includes architecture, deployment configuration, benchmark documentation, a recruiter demo walkthrough, and a self-contained credential-free browser demo source.
+A source-grounded RAG system with a transparent TF-IDF baseline plus FastAPI semantic retrieval backed by **PostgreSQL/pgvector**, persistent vector upserts, HNSW cosine search, cited answers, Docker, OpenTelemetry/OTLP→Jaeger verification, prompt-injection boundary tests, CI benchmarks, deployment configuration, and `portfolio-evidence/v1` export.
 
 **Engineering:** `Python` `FastAPI` `RAG` `PostgreSQL` `pgvector` `HNSW` `Embeddings` `Source Grounding` `OpenTelemetry` `OTLP` `Jaeger` `Security Guardrails` `Docker` `Testing` `CI/CD` `Benchmarking`
 
@@ -60,21 +82,21 @@ A local-first personal AI assistant spanning CLI, local API, memory, tools, sche
 **Engineering:** `Python` `Rust/PyO3` `AI Agents` `Automation` `Tool Use` `Memory` `Local AI` `Cross-platform` `Privacy Engineering`
 
 ### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/agent-workflow-engine)
-An explicit orchestration framework for multi-step agent workflows with synchronous and async execution, state updates, retries with backoff, conditional routing, human approval gates, timeout controls, persistent/in-memory checkpoints, resume support, permission scopes, idempotency protection, maximum-step controls, graceful blocked/failure states, and execution telemetry.
+An explicit orchestration framework with synchronous and async execution, retries with exponential backoff, conditional routing, human approval gates, timeout controls, persistent/in-memory checkpoints, resume support, permission scopes, idempotency protection, real OpenAI-compatible model and RAG HTTP adapter boundaries, OpenTelemetry-compatible event export, and evaluator-ready evidence generation.
 
-**Engineering:** `Python` `AI Agents` `Async Orchestration` `Checkpointing` `Idempotency` `Permission Scopes` `Conditional Routing` `Human-in-the-loop` `Reliability` `Observability` `Docker` `CI/CD`
+**Engineering:** `Python` `AI Agents` `Async Orchestration` `Checkpointing` `Idempotency` `Permission Scopes` `RAG Integration` `Model Adapters` `Human-in-the-loop` `Reliability` `Observability` `Docker` `CI/CD`
 
 ### 🧪 [AI Evaluation Harness](https://github.com/mirrazaabbas/ai-evaluation-harness)
-A deterministic benchmark framework for AI, RAG, and agent systems with groundedness/recall/concision scoring, token-level answer F1, retrieval recall@k, reciprocal rank, nDCG@k, citation precision/recall, exact tool-call accuracy, latency/cost aggregation, configurable quality thresholds, baseline-vs-candidate regression policies, JSON output, and HTML reporting.
+A deterministic benchmark framework for AI, RAG, and agent systems with groundedness/recall/concision scoring, token-level answer F1, retrieval recall@k, reciprocal rank, nDCG@k, citation precision/recall, exact tool-call accuracy, latency/cost aggregation, configurable regression policies, JSON/HTML reporting, and a `portfolio-evidence/v1` evaluation bridge.
 
-**Engineering:** `Python` `LLMOps` `AI Evaluation` `RAG Evaluation` `Retrieval Metrics` `Agent Evaluation` `Regression Testing` `Benchmarking` `Quality Engineering` `HTML Reporting`
+**Engineering:** `Python` `LLMOps` `AI Evaluation` `RAG Evaluation` `Retrieval Metrics` `Agent Evaluation` `Tool-call Evaluation` `Regression Testing` `Benchmarking` `Quality Engineering`
 
 ## 🧩 Foundation Projects
 
 | Project | What it demonstrates |
 |---|---|
-| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Truth-preserving ATS-style skill/keyword scoring, multi-word skill extraction, matched/missing analysis, JSON/HTML reporting, validation and CI |
-| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompt templates plus PromptOps fingerprints, injection checks, output-schema validation, deterministic regression cases and CI |
+| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Truth-preserving ATS-style skill/keyword scoring, multi-word skill extraction, matched/missing analysis, JSON/HTML reporting and CI |
+| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompts plus PromptOps fingerprints, injection checks, output-schema validation, deterministic regression experiments and CI |
 | [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/csv-insight-analyzer) | Business metrics plus type inference, missingness diagnostics, duplicate detection, outlier checks, dataset profiling and CI |
 
 ## ✅ Engineering Evidence
@@ -84,10 +106,14 @@ Across the portfolio I prioritize evidence over claims:
 - automated tests and coverage gates
 - multi-version Python CI where appropriate
 - deterministic failure and regression tests
-- Docker or reproducible command-line execution for key systems
+- real pgvector and OTLP/Jaeger integration testing in the RAG flagship
+- versioned cross-project evidence contracts
+- injected transports for credential-free model/tool adapter testing
+- Docker or reproducible CLI execution for key systems
 - explicit security and limitation documentation
 - structured outputs and validation at system boundaries
 - benchmark and telemetry evidence where the project supports it
+- weekly Dependabot updates for Python and GitHub Actions across the engineering repos
 
 ## 🎓 Credentials
 
@@ -102,10 +128,10 @@ Across the portfolio I prioritize evidence over claims:
 | Area | Current focus |
 |---|---|
 | **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, retrieval evaluation and observability |
+| **AI Agents** | Async orchestration, checkpoints, idempotency, permissions, real tool/model boundaries and reliable execution |
+| **AI Evaluation** | Retrieval metrics, agent/tool-call evaluation, cross-project evidence, regression policies and quality gates |
 | **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use and local-first workflows |
-| **AI Agents** | Async orchestration, checkpoints, idempotency, permissions, approval controls and reliable execution |
-| **AI Evaluation** | Retrieval metrics, agent/tool-call evaluation, regression policies, reporting and quality gates |
-| **Python** | Clean, validated, coverage-gated implementations of AI system concepts |
+| **Python** | Clean, validated, coverage-gated implementations of AI-system concepts |
 | **Automation** | Connecting models, tools, APIs and repeatable workflows |
 
 ## 💡 Engineering Mindset
@@ -118,7 +144,7 @@ Every portfolio project is structured to make the problem, implementation, archi
 
 <div align="center">
 
-### Building practical AI systems — from retrieval and personal assistants to reliable agents and evaluation.
+### Building practical AI systems — from retrieval and personal assistants to reliable agents and measurable evaluation.
 
 [![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
 
