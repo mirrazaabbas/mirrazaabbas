@@ -2,9 +2,9 @@
 
 # Mir Raza Abbas
 
-### AI Builder · RAG · AI Agents · Evaluation · Automation · Python
+### AI Systems Builder · RAG · AI Agents · Evaluation · Automation · Python
 
-**Building practical AI systems with measurable engineering evidence.**
+**Building practical AI systems with measurable engineering evidence, reliability controls, and reproducible tests.**
 
 [![Portfolio Tests](https://github.com/mirrazaabbas/mirrazaabbas/actions/workflows/portfolio-tests.yml/badge.svg?branch=main)](https://github.com/mirrazaabbas/mirrazaabbas/actions/workflows/portfolio-tests.yml)
 [![GitHub](https://img.shields.io/badge/GitHub-mirrazaabbas-181717?style=flat-square&logo=github)](https://github.com/mirrazaabbas)
@@ -15,13 +15,21 @@
 
 ## 👋 About Me
 
-I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI agents, prompt engineering, Python, automation, evaluation, and data analysis**. I focus on understandable, reproducible systems that demonstrate both AI concepts and solid engineering foundations.
+I'm developing hands-on skills at the intersection of **Generative AI, RAG, AI agents, prompt engineering, Python, automation, evaluation, and data analysis**. I focus on understandable, reproducible systems that demonstrate both AI concepts and solid engineering foundations: state management, failure handling, evaluation, observability, security boundaries, CI/CD, and measurable quality.
 
 - 🎓 **Google AI Professional Certificate** — Coursera
 - 🏅 **1 Million Prompters** — Dubai Future Foundation
 - 🤖 Building with **retrieval, agent orchestration, evaluation, APIs, and automation**
-- 🧠 Interested in **reliable AI systems, structured prompting, and AI product development**
-- 🛠️ Growing a hands-on portfolio from foundational tools to advanced AI architecture projects
+- 🧠 Focused on **reliable AI systems, structured prompting, measurable quality, and AI product development**
+- 🛠️ Portfolio work ranges from focused foundation tools to advanced AI architecture projects
+
+## 🚀 Start Here
+
+| Flagship | What to inspect |
+|---|---|
+| [**RAG Knowledge Assistant**](https://github.com/mirrazaabbas/rag-knowledge-assistant) | Production-style retrieval, PostgreSQL/pgvector, citations, observability, security tests and Docker |
+| [**Agent Workflow Engine**](https://github.com/mirrazaabbas/agent-workflow-engine) | Agent orchestration, async execution, checkpoints, retries, timeouts, approvals, permissions and idempotency |
+| [**AI Evaluation Harness**](https://github.com/mirrazaabbas/ai-evaluation-harness) | RAG/agent metrics, regression policies, retrieval evaluation, citation quality, cost/latency gates and HTML reporting |
 
 ## 🧰 Tech & Focus
 
@@ -52,22 +60,34 @@ A local-first personal AI assistant spanning CLI, local API, memory, tools, sche
 **Engineering:** `Python` `Rust/PyO3` `AI Agents` `Automation` `Tool Use` `Memory` `Local AI` `Cross-platform` `Privacy Engineering`
 
 ### 🤖 [Agent Workflow Engine](https://github.com/mirrazaabbas/agent-workflow-engine)
-An explicit orchestration framework for multi-step agent workflows with state updates, retries, conditional routing, human approval gates, maximum-step controls, graceful blocked/failure states, and execution telemetry.
+An explicit orchestration framework for multi-step agent workflows with synchronous and async execution, state updates, retries with backoff, conditional routing, human approval gates, timeout controls, persistent/in-memory checkpoints, resume support, permission scopes, idempotency protection, maximum-step controls, graceful blocked/failure states, and execution telemetry.
 
-**Engineering:** `Python` `AI Agents` `Orchestration` `Conditional Routing` `Human-in-the-loop` `Reliability` `Observability` `Docker`
+**Engineering:** `Python` `AI Agents` `Async Orchestration` `Checkpointing` `Idempotency` `Permission Scopes` `Conditional Routing` `Human-in-the-loop` `Reliability` `Observability` `Docker` `CI/CD`
 
 ### 🧪 [AI Evaluation Harness](https://github.com/mirrazaabbas/ai-evaluation-harness)
-A deterministic benchmark framework with groundedness/recall/concision scoring, optional citation coverage, latency/cost aggregation, configurable thresholds, baseline-vs-candidate regression deltas, JSON output, and HTML reporting.
+A deterministic benchmark framework for AI, RAG, and agent systems with groundedness/recall/concision scoring, token-level answer F1, retrieval recall@k, reciprocal rank, nDCG@k, citation precision/recall, exact tool-call accuracy, latency/cost aggregation, configurable quality thresholds, baseline-vs-candidate regression policies, JSON output, and HTML reporting.
 
-**Engineering:** `Python` `LLMOps` `AI Evaluation` `Regression Testing` `Benchmarking` `Quality Engineering` `HTML Reporting`
+**Engineering:** `Python` `LLMOps` `AI Evaluation` `RAG Evaluation` `Retrieval Metrics` `Agent Evaluation` `Regression Testing` `Benchmarking` `Quality Engineering` `HTML Reporting`
 
 ## 🧩 Foundation Projects
 
 | Project | What it demonstrates |
 |---|---|
-| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Text processing, keyword extraction, scoring, CLI design, validation, coverage-gated CI |
-| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompts, reusable templates, JSON validation, error handling, coverage-gated CI |
-| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/csv-insight-analyzer) | Data validation, statistics, business metrics, CSV processing, coverage-gated CI |
+| [**AI Resume Keyword Matcher**](https://github.com/mirrazaabbas/ai-resume-keyword-matcher) | Truth-preserving ATS-style skill/keyword scoring, multi-word skill extraction, matched/missing analysis, JSON/HTML reporting, validation and CI |
+| [**Prompt Engineering Lab**](https://github.com/mirrazaabbas/prompt-engineering-lab) | Structured prompt templates plus PromptOps fingerprints, injection checks, output-schema validation, deterministic regression cases and CI |
+| [**CSV Insight Analyzer**](https://github.com/mirrazaabbas/csv-insight-analyzer) | Business metrics plus type inference, missingness diagnostics, duplicate detection, outlier checks, dataset profiling and CI |
+
+## ✅ Engineering Evidence
+
+Across the portfolio I prioritize evidence over claims:
+
+- automated tests and coverage gates
+- multi-version Python CI where appropriate
+- deterministic failure and regression tests
+- Docker or reproducible command-line execution for key systems
+- explicit security and limitation documentation
+- structured outputs and validation at system boundaries
+- benchmark and telemetry evidence where the project supports it
 
 ## 🎓 Credentials
 
@@ -81,12 +101,12 @@ A deterministic benchmark framework with groundedness/recall/concision scoring, 
 
 | Area | Current focus |
 |---|---|
-| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, evaluation and observability |
-| **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use, local-first workflows |
-| **AI Agents** | Orchestration, conditional routing, approval controls, reliable execution |
-| **AI Evaluation** | Benchmarks, regression comparison, reporting, quality metrics |
+| **RAG & Retrieval** | Production retrieval, pgvector, grounded answers, retrieval evaluation and observability |
+| **Personal AI Assistants** | Agent-style interaction, memory, automation, tool use and local-first workflows |
+| **AI Agents** | Async orchestration, checkpoints, idempotency, permissions, approval controls and reliable execution |
+| **AI Evaluation** | Retrieval metrics, agent/tool-call evaluation, regression policies, reporting and quality gates |
 | **Python** | Clean, validated, coverage-gated implementations of AI system concepts |
-| **Automation** | Connecting models, tools, APIs, and repeatable workflows |
+| **Automation** | Connecting models, tools, APIs and repeatable workflows |
 
 ## 💡 Engineering Mindset
 
@@ -98,7 +118,7 @@ Every portfolio project is structured to make the problem, implementation, archi
 
 <div align="center">
 
-### Building practical AI systems — from retrieval and personal assistants to agents and evaluation.
+### Building practical AI systems — from retrieval and personal assistants to reliable agents and evaluation.
 
 [![Explore Projects](https://img.shields.io/badge/Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mirrazaabbas?tab=repositories)
 
